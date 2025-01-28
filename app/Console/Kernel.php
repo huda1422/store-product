@@ -13,7 +13,8 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule): void
     {
         // $schedule->command('inspire')->hourly();
-        $schedule->command('products:fetch')->daily();
+        $schedule->command('fetch:products')->daily();
+
     }
 
     /**
@@ -26,3 +27,4 @@ class Kernel extends ConsoleKernel
         require base_path('routes/console.php');
     }
 }
+

@@ -123,9 +123,9 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
-    'providers' => [
-    // Other providers
-    Maatwebsite\Excel\ExcelServiceProvider::class,
-],
+//     'providers' => [
+//     // Other providers
+//     Maatwebsite\Excel\ExcelServiceProvider::class,
+// ],
 
 ];

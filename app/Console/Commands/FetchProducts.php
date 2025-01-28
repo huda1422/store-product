@@ -1,12 +1,12 @@
 <?php
-namespace app\Console\Commands;
+namespace App\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Http;
 use App\Models\Product;
 
 class FetchProducts extends Command
 {
-    protected $signature = 'products:fetch';
+    protected $signature = 'fetch:products';
     protected $description = 'Fetch products from FakeStore API';
 
     public function handle()

@@ -18,6 +18,8 @@ return new class extends Migration
             $table->string('description');
             $table->string('category');
             $table->string('image');
+            $table->string('api_id');
+            
             $table->timestamps();
         });
     }
