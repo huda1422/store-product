@@ -17,15 +17,15 @@ class ProductsExport implements FromCollection, WithHeadings
     {
         return [
             'ID',
-            'API ID',
             'Title',
             'Price',
             'Description',
             'Category',
             'Image URL',
-            'Rating',
+            'API ID',
             'Created At',
             'Updated At'
+
         ];
     }
 }
